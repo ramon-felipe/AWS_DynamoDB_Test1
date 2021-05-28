@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DynamoDB.API</name>
+    </assembly>
+    <members>
+        <member name="T:DynamoDB.API.Controllers.UsersController">
+            <summary>
+            UsersController
+            </summary>
+        </member>
+        <member name="M:DynamoDB.API.Controllers.UsersController.#ctor(Microsoft.Extensions.Logging.ILogger{DynamoDB.API.Controllers.UsersController},Amazon.DynamoDBv2.IAmazonDynamoDB)">
+            <summary>
+            Users controller constructor
+            </summary>
+            <param name="logger"></param>
+            <param name="ddbClient"></param>
+        </member>
+        <member name="M:DynamoDB.API.Controllers.UsersController.Get">
+            <summary>
+            Get users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DynamoDB.API.Controllers.UsersController.GetUser(System.String)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DynamoDB.API.Controllers.UsersController.Post(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DynamoDB.API.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DynamoDB.API.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:DynamoDB.API.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            CreateHostBuilder
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DynamoDB.API.Startup">
+            <summary>
+            Startup...
+            </summary>
+        </member>
+        <member name="M:DynamoDB.API.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Startup constructor
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:DynamoDB.API.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DynamoDB.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:DynamoDB.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
