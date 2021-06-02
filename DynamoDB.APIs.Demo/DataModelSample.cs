@@ -9,16 +9,12 @@ namespace DynamoDB.APIs.Demo
 {
     public class DataModelSample
     {
-        // private readonly IAmazonDynamoDB _amazonDynamoDB;
         private readonly User _user;
-        // private readonly DynamoDBContextConfig _config;
         private readonly DynamoDBContext _context;
-        public DataModelSample(/*IAmazonDynamoDB amazonDynamoDB, DynamoDBContextConfig config, */DynamoDBContext context, User user)
+        public DataModelSample(DynamoDBContext context, User user)
         {
             _context = context;
             _user = user;
-            /*_amazonDynamoDB = amazonDynamoDB;
-            _config = config;*/
         }
 
         public async Task ExecuteAsync()
